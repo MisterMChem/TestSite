@@ -1,0 +1,24 @@
+body {
+	background: #FFFAD5;
+	color: #105B63;
+}
+.navbar-inverse {
+	background-color: #FFD34E;
+	border-color: #FFD34E;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	background-color: #FFD34E;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+	color: #105B63;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #105B63;
+}
+#coverPhoto {
+	max-width: 400px;
+}
+#dogPhotos {
+	min-height: 400px;
+	background-color: #FFD34E;
+}
