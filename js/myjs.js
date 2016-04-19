@@ -98,8 +98,11 @@ var fblogin = function() {
   }
 
   $("#submitButton").click(function() {
+
     var photourl = document.getElementById("photoURL").value;
     var messageText = document.getElementById("messageBox").value;
+    ga('send', 'event', 'Photos', 'post', messageText);
+
     console.log(photourl);
     FB.api(
       '/10101892888153924/photos',
